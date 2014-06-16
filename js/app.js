@@ -19,6 +19,7 @@ $(document).ready(function() {
 				{'margin-left': '500px'},
 				800,
 				function() {
+					$.alert(1)
 					$(this).hide();
 					$(this).css('margin-left', '-10px');
 							} 
